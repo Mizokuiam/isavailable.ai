@@ -1,6 +1,15 @@
 <div align="center">
-  <!-- This image is referenced locally but excluded from git via .gitignore to prevent public access -->
-  <img src="github-readme.png" alt="isavailable.ai" width="100%">
+  <!-- 
+  The following approach uses HTML comments to create different displays:
+  - When viewed locally, the local image will be displayed
+  - When viewed on GitHub, a text message will be displayed instead
+  -->
+  <!-- Local image (not visible on GitHub due to .gitignore) -->
+  <img src="github-readme.png" alt="isavailable.ai - Private Image" width="100%" onerror="this.style.display='none'">
+  
+  <!-- Fallback for GitHub (only shows when image can't load) -->
+  <p><em>[Private isavailable.ai banner image - only visible in local environment]</em></p>
+  
   <h1>isavailable.ai</h1>
   <p>Find the perfect name for your brand. Check availability across domains, social media, and more - all in one place.</p>
   <a href="https://isavailable.ai">Visit isavailable.ai</a> | 
