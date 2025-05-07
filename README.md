@@ -35,11 +35,11 @@
 
 1. [Introduction](#1-introduction)
 2. [Features](#2-features)
-3. [API Documentation](#6-api-documentation)
-4. [Roadmap](#9-roadmap)
-5. [License](#10-license)
-6. [Acknowledgements](#11-acknowledgements)
-7. [Contact](#12-contact)
+3. [API Documentation](#3-api-documentation)
+4. [Roadmap](#4-roadmap)
+5. [License](#5-license)
+6. [Acknowledgements](#6-acknowledgements)
+7. [Contact](#7-contact)
 
 ---
 
@@ -81,25 +81,25 @@ Our mission is to simplify the brand naming process and help creators establish 
 
 
 
-## 6. API Documentation
+## 3. API Documentation
 
 isavailable.ai offers a RESTful API for developers who want to integrate availability checking into their own applications.
 
-### 6.1 Base URL
+### 3.1 Base URL
 ```
 https://isavailable.ai/api/v1
 ```
 
-### 6.2 Authentication
+### 3.2 Authentication
 API requests require an API key. You can obtain one by signing up for a Pro or Business plan.
 
 ```
 Authorization: Bearer YOUR_API_KEY
 ```
 
-### 6.3 Endpoints
+### 3.3 Endpoints
 
-#### 6.3.1 Check Availability
+#### 3.3.1 Check Availability
 ```
 POST /check
 ```
@@ -137,11 +137,11 @@ For complete API documentation, visit [isavailable.ai/docs/api](https://isavaila
 
 
 
-## 9. Roadmap
+## 4. Roadmap
 
 We're constantly working to improve isavailable.ai. Here's what's coming next:
 
-### 9.1 Upcoming Features
+### 4.1 Upcoming Features
 
 1. **User Authentication**: Save and manage your searches
 2. **Batch Checking**: Check multiple names at once
@@ -154,15 +154,15 @@ We're constantly working to improve isavailable.ai. Here's what's coming next:
 
 ---
 
-## 10. License
+## 5. License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 11. Acknowledgements
+## 6. Acknowledgements
 
-### 11.1 Technologies
+### 6.1 Technologies
 
 1. [Next.js](https://nextjs.org/) - The React framework
 2. [Tailwind CSS](https://tailwindcss.com/) - CSS framework
@@ -170,22 +170,22 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 4. [Framer Motion](https://www.framer.com/motion/) - Animation library
 5. [Lucide Icons](https://lucide.dev/) - Beautiful icons
 
-### 11.2 Community
+### 6.2 Community
 
 Special thanks to all our [contributors](https://github.com/Mizokuiam/isavailable.ai/graphs/contributors) and early users who provided valuable feedback.
 
 ---
 
-## 12. Contact
+## 7. Contact
 
-### 12.1 Official Channels
+### 7.1 Official Channels
 
 1. **Website**: [isavailable.ai](https://isavailable.ai)
 2. **Email**: hello@isavailable.ai
 3. **Twitter**: [@isavailableai](https://twitter.com/isavailableai)
 4. **GitHub**: [Mizokuiam/isavailable.ai](https://github.com/Mizokuiam/isavailable.ai)
 
-### 12.2 Support
+### 7.2 Support
 
 For bug reports and feature requests, please use our [issue tracker](https://github.com/Mizokuiam/isavailable.ai/issues).
 
