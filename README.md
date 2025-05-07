@@ -1,31 +1,44 @@
 <div align="center">
   <img src="github-readme.png" alt="isavailable.ai" width="100%">
-  <h1>isavailable.ai</h1>
-  <p>Find the perfect name for your brand. Check availability across domains, social media, and more - all in one place.</p>
-  <a href="https://isavailable.ai">Visit isavailable.ai</a> | 
-  <a href="https://github.com/Mizokuiam/isavailable.ai">GitHub</a> | 
+</div>
+
+<h1 align="center">isavailable.ai</h1>
+
+<p align="center">Find the perfect name for your brand. Check availability across domains, social media, and more - all in one place.</p>
+
+<div align="center">
+  <a href="https://isavailable.ai">Website</a> •
+  <a href="https://github.com/Mizokuiam/isavailable.ai">GitHub</a> •
   <a href="https://isavailable.ai/docs">Documentation</a>
-  
-  <p>
+</div>
+
+<div align="center">
+  <a href="https://github.com/Mizokuiam/isavailable.ai/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/Mizokuiam/isavailable.ai" alt="License">
+  </a>
+  <a href="https://github.com/Mizokuiam/isavailable.ai/stargazers">
     <img src="https://img.shields.io/github/stars/Mizokuiam/isavailable.ai" alt="Stars">
+  </a>
+  <a href="https://github.com/Mizokuiam/isavailable.ai/network/members">
     <img src="https://img.shields.io/github/forks/Mizokuiam/isavailable.ai" alt="Forks">
+  </a>
+  <a href="https://github.com/Mizokuiam/isavailable.ai/issues">
     <img src="https://img.shields.io/github/issues/Mizokuiam/isavailable.ai" alt="Issues">
-  </p>
+  </a>
 </div>
 
 ---
 
-## 📋 Table of Contents
+## Document Overview
 
 1. [Introduction](#1-introduction)
 2. [Features](#2-features)
 3. [Tech Stack](#3-tech-stack)
 4. [Getting Started](#4-getting-started)
-   - [Prerequisites](#prerequisites)
-   - [Installation](#installation)
-   - [Environment Variables](#environment-variables)
-   - [Running Locally](#running-locally)
+   - [Prerequisites](#41-prerequisites)
+   - [Installation](#42-installation)
+   - [Environment Variables](#43-environment-variables)
+   - [Running Locally](#44-running-locally)
 5. [Architecture](#5-architecture)
 6. [API Documentation](#6-api-documentation)
 7. [Deployment](#7-deployment)
