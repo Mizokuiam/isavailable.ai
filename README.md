@@ -1,25 +1,17 @@
 <div align="center">
-  <!-- 
-  The following approach uses HTML comments to create different displays:
-  - When viewed locally, the local image will be displayed
-  - When viewed on GitHub, a text message will be displayed instead
-  -->
-  <!-- Local image (not visible on GitHub due to .gitignore) -->
-  <img src="github-readme.png" alt="isavailable.ai - Private Image" width="100%" onerror="this.style.display='none'">
-  
-  <!-- Fallback for GitHub (only shows when image can't load) -->
-  <p><em>[Private isavailable.ai banner image - only visible in local environment]</em></p>
-  
+  <img src="github-readme.png" alt="isavailable.ai" width="100%">
   <h1>isavailable.ai</h1>
   <p>Find the perfect name for your brand. Check availability across domains, social media, and more - all in one place.</p>
   <a href="https://isavailable.ai">Visit isavailable.ai</a> | 
   <a href="https://github.com/Mizokuiam/isavailable.ai">GitHub</a> | 
   <a href="https://isavailable.ai/docs">Documentation</a>
   
-  ![License](https://img.shields.io/github/license/Mizokuiam/isavailable.ai)
-  ![Stars](https://img.shields.io/github/stars/Mizokuiam/isavailable.ai)
-  ![Forks](https://img.shields.io/github/forks/Mizokuiam/isavailable.ai)
-  ![Issues](https://img.shields.io/github/issues/Mizokuiam/isavailable.ai)
+  <p>
+    <img src="https://img.shields.io/github/license/Mizokuiam/isavailable.ai" alt="License">
+    <img src="https://img.shields.io/github/stars/Mizokuiam/isavailable.ai" alt="Stars">
+    <img src="https://img.shields.io/github/forks/Mizokuiam/isavailable.ai" alt="Forks">
+    <img src="https://img.shields.io/github/issues/Mizokuiam/isavailable.ai" alt="Issues">
+  </p>
 </div>
 
 ---
@@ -57,27 +49,27 @@ Our mission is to simplify the brand naming process and help creators establish 
 
 ## 2. Features
 
-- **Comprehensive Availability Checking**
-  - ✅ 30+ domain extensions (.com, .net, .org, .io, etc.)
-  - ✅ 15+ social media platforms (Twitter, Instagram, GitHub, etc.)
-  - ✅ Real-time verification with multiple methods
+### 2.1 Comprehensive Availability Checking
+- 30+ domain extensions (.com, .net, .org, .io, etc.)
+- 15+ social media platforms (Twitter, Instagram, GitHub, etc.)
+- Real-time verification with multiple methods
 
-- **Advanced Search Capabilities**
-  - ✅ Instant results with high accuracy
-  - ✅ Filter by domains, social media, or available options
-  - ✅ Detailed availability status for each platform
+### 2.2 Advanced Search Capabilities
+- Instant results with high accuracy
+- Filter by domains, social media, or available options
+- Detailed availability status for each platform
 
-- **User Experience**
-  - ✅ Clean, intuitive interface
-  - ✅ Responsive design for all devices
-  - ✅ Interactive particle network background
-  - ✅ Command menu (⌘K) for quick navigation
+### 2.3 User Experience
+- Clean, intuitive interface
+- Responsive design for all devices
+- Interactive particle network background
+- Command menu for quick navigation
 
-- **Performance & Reliability**
-  - ✅ Optimized API with rate limiting
-  - ✅ Result caching for improved performance
-  - ✅ Multiple verification methods for accuracy
-  - ✅ Graceful error handling
+### 2.4 Performance & Reliability
+- Optimized API with rate limiting
+- Result caching for improved performance
+- Multiple verification methods for accuracy
+- Graceful error handling
 
 ---
 
@@ -85,35 +77,35 @@ Our mission is to simplify the brand naming process and help creators establish 
 
 isavailable.ai is built with modern technologies focused on performance, scalability, and developer experience:
 
-- **Frontend**:
-  - [Next.js 14](https://nextjs.org/) - React framework with App Router
-  - [TypeScript](https://www.typescriptlang.org/) - Type-safe JavaScript
-  - [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
-  - [Framer Motion](https://www.framer.com/motion/) - Animation library
-  - [shadcn/ui](https://ui.shadcn.com/) - UI component system
+### 3.1 Frontend
+- [Next.js 14](https://nextjs.org/) - React framework with App Router
+- [TypeScript](https://www.typescriptlang.org/) - Type-safe JavaScript
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [Framer Motion](https://www.framer.com/motion/) - Animation library
+- [shadcn/ui](https://ui.shadcn.com/) - UI component system
 
-- **Backend**:
-  - [Next.js API Routes](https://nextjs.org/docs/api-routes/introduction) - Serverless functions
-  - [Node.js](https://nodejs.org/) - JavaScript runtime
+### 3.2 Backend
+- [Next.js API Routes](https://nextjs.org/docs/api-routes/introduction) - Serverless functions
+- [Node.js](https://nodejs.org/) - JavaScript runtime
 
-- **Infrastructure**:
-  - [Vercel](https://vercel.com/) - Deployment and hosting
-  - [GitHub Actions](https://github.com/features/actions) - CI/CD
+### 3.3 Infrastructure
+- [Vercel](https://vercel.com/) - Deployment and hosting
+- [GitHub Actions](https://github.com/features/actions) - CI/CD
 
 ---
 
 ## 4. Getting Started
 
-### Prerequisites
+### 4.1 Prerequisites
 
 Before you begin, ensure you have the following installed:
-- [Node.js](https://nodejs.org/) (v18.17.0 or higher)
-- [npm](https://www.npmjs.com/) (v9.0.0 or higher) or [yarn](https://yarnpkg.com/) (v1.22.0 or higher)
-- [Git](https://git-scm.com/)
+1. [Node.js](https://nodejs.org/) (v18.17.0 or higher)
+2. [npm](https://www.npmjs.com/) (v9.0.0 or higher) or [yarn](https://yarnpkg.com/) (v1.22.0 or higher)
+3. [Git](https://git-scm.com/)
 
-### Installation
+### 4.2 Installation
 
-\`\`\`bash
+```bash
 # Clone the repository
 git clone https://github.com/Mizokuiam/isavailable.ai.git
 
@@ -124,13 +116,13 @@ cd isavailable.ai
 npm install
 # or
 yarn install
-\`\`\`
+```
 
-### Environment Variables
+### 4.3 Environment Variables
 
 Create a `.env.local` file in the root directory with the following variables:
 
-\`\`\`
+```
 # Base URL
 NEXT_PUBLIC_BASE_URL=http://localhost:3000
 
@@ -140,11 +132,11 @@ RATE_LIMIT_INTERVAL=60000
 
 # Optional: Analytics
 NEXT_PUBLIC_ANALYTICS_ID=your-analytics-id
-\`\`\`
+```
 
-### Running Locally
+### 4.4 Running Locally
 
-\`\`\`bash
+```bash
 # Start the development server
 npm run dev
 # or
@@ -159,7 +151,7 @@ yarn build
 npm start
 # or
 yarn start
-\`\`\`
+```
 
 The application will be available at `http://localhost:3000`.
 
@@ -169,7 +161,7 @@ The application will be available at `http://localhost:3000`.
 
 isavailable.ai follows a modern architecture pattern:
 
-\`\`\`
+```
 ┌─────────────────────────────────┐
 │           Client Side           │
 │  (Next.js App Router, React)    │
@@ -192,51 +184,52 @@ isavailable.ai follows a modern architecture pattern:
 │       External Services         │
 │  (DNS, WHOIS, Platform APIs)    │
 └─────────────────────────────────┘
-\`\`\`
+```
 
-Key architectural decisions:
-- **Server Components**: Leveraging Next.js App Router for improved performance and SEO
-- **API-First Design**: Clean separation between frontend and backend
-- **Progressive Enhancement**: Core functionality works without JavaScript
-- **Responsive Design**: Mobile-first approach for all screen sizes
-- **Accessibility**: WCAG 2.1 AA compliance throughout the application
+### 5.1 Key Architectural Decisions
+
+1. **Server Components**: Leveraging Next.js App Router for improved performance and SEO
+2. **API-First Design**: Clean separation between frontend and backend
+3. **Progressive Enhancement**: Core functionality works without JavaScript
+4. **Responsive Design**: Mobile-first approach for all screen sizes
+5. **Accessibility**: WCAG 2.1 AA compliance throughout the application
 
 ---
 
 ## 6. API Documentation
 
-isavailable.ai offers a RESTful API for developers who want to integrate our availability checking into their own applications.
+isavailable.ai offers a RESTful API for developers who want to integrate availability checking into their own applications.
 
-### Base URL
-\`\`\`
+### 6.1 Base URL
+```
 https://isavailable.ai/api/v1
-\`\`\`
+```
 
-### Authentication
+### 6.2 Authentication
 API requests require an API key. You can obtain one by signing up for a Pro or Business plan.
 
-\`\`\`
+```
 Authorization: Bearer YOUR_API_KEY
-\`\`\`
+```
 
-### Endpoints
+### 6.3 Endpoints
 
-#### Check Availability
-\`\`\`
+#### 6.3.1 Check Availability
+```
 POST /check
-\`\`\`
+```
 
 Request body:
-\`\`\`json
+```json
 {
   "name": "example",
   "domains": ["com", "net", "org"],
   "social": ["twitter", "instagram", "github"]
 }
-\`\`\`
+```
 
 Response:
-\`\`\`json
+```json
 {
   "results": {
     "domains": {
@@ -251,7 +244,7 @@ Response:
     }
   }
 }
-\`\`\`
+```
 
 For complete API documentation, visit [isavailable.ai/docs/api](https://isavailable.ai/api).
 
@@ -261,23 +254,26 @@ For complete API documentation, visit [isavailable.ai/docs/api](https://isavaila
 
 isavailable.ai is optimized for deployment on Vercel:
 
-\`\`\`bash
+### 7.1 Vercel Deployment
+
+```bash
 # Install Vercel CLI
 npm install -g vercel
 
 # Deploy to Vercel
 vercel
-\`\`\`
+```
 
 For production deployment:
-\`\`\`bash
+```bash
 vercel --prod
-\`\`\`
+```
 
-Alternative deployment options:
-- **Netlify**: Compatible with minimal configuration
-- **AWS Amplify**: Supported with custom build settings
-- **Docker**: Dockerfile included for containerized deployment
+### 7.2 Alternative Deployment Options
+
+1. **Netlify**: Compatible with minimal configuration
+2. **AWS Amplify**: Supported with custom build settings
+3. **Docker**: Dockerfile included for containerized deployment
 
 ---
 
@@ -300,14 +296,16 @@ Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 We're constantly working to improve isavailable.ai. Here's what's coming next:
 
-- [ ] **User Authentication**: Save and manage your searches
-- [ ] **Batch Checking**: Check multiple names at once
-- [ ] **Export Functionality**: Download results in CSV/PDF
-- [ ] **Domain Registration**: Direct links to register available domains
-- [ ] **Name Suggestions**: AI-powered name recommendations
-- [ ] **Advanced Analytics**: Insights on name popularity and trends
-- [ ] **Browser Extension**: Quick checks from any webpage
-- [ ] **Mobile App**: Native iOS and Android applications
+### 9.1 Upcoming Features
+
+1. **User Authentication**: Save and manage your searches
+2. **Batch Checking**: Check multiple names at once
+3. **Export Functionality**: Download results in CSV/PDF
+4. **Domain Registration**: Direct links to register available domains
+5. **Name Suggestions**: AI-powered name recommendations
+6. **Advanced Analytics**: Insights on name popularity and trends
+7. **Browser Extension**: Quick checks from any webpage
+8. **Mobile App**: Native iOS and Android applications
 
 ---
 
@@ -319,12 +317,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 11. Acknowledgements
 
-- [Next.js](https://nextjs.org/) - The React framework
-- [Tailwind CSS](https://tailwindcss.com/) - CSS framework
-- [shadcn/ui](https://ui.shadcn.com/) - UI components
-- [Framer Motion](https://www.framer.com/motion/) - Animation library
-- [Lucide Icons](https://lucide.dev/) - Beautiful icons
-- [Vercel](https://vercel.com/) - Deployment platform
+### 11.1 Technologies
+
+1. [Next.js](https://nextjs.org/) - The React framework
+2. [Tailwind CSS](https://tailwindcss.com/) - CSS framework
+3. [shadcn/ui](https://ui.shadcn.com/) - UI components
+4. [Framer Motion](https://www.framer.com/motion/) - Animation library
+5. [Lucide Icons](https://lucide.dev/) - Beautiful icons
+6. [Vercel](https://vercel.com/) - Deployment platform
+
+### 11.2 Community
 
 Special thanks to all our [contributors](https://github.com/Mizokuiam/isavailable.ai/graphs/contributors) and early users who provided valuable feedback.
 
@@ -332,10 +334,14 @@ Special thanks to all our [contributors](https://github.com/Mizokuiam/isavailabl
 
 ## 12. Contact
 
-- **Website**: [isavailable.ai](https://isavailable.ai)
-- **Email**: hello@isavailable.ai
-- **Twitter**: [@isavailableai](https://twitter.com/isavailableai)
-- **GitHub**: [Mizokuiam/isavailable.ai](https://github.com/Mizokuiam/isavailable.ai)
+### 12.1 Official Channels
+
+1. **Website**: [isavailable.ai](https://isavailable.ai)
+2. **Email**: hello@isavailable.ai
+3. **Twitter**: [@isavailableai](https://twitter.com/isavailableai)
+4. **GitHub**: [Mizokuiam/isavailable.ai](https://github.com/Mizokuiam/isavailable.ai)
+
+### 12.2 Support
 
 For bug reports and feature requests, please use our [issue tracker](https://github.com/Mizokuiam/isavailable.ai/issues).
 

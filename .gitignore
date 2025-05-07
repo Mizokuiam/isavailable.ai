@@ -1,5 +1,4 @@
-# Ignore specific image files to prevent public access
-github-readme.png
+# Git ignore configuration
 
 # Dependencies
 /node_modules
